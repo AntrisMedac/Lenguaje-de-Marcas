@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #d6dde7;
+   
     font-family: 'calibri';
 }
 
@@ -29,7 +29,18 @@ footer {
 }
 
 #nombre{
+    color: rgb(255, 49, 49);
+    position: relative;
+    padding-left:860px;
+}
+
+#nombre2{
     color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    padding-left:860px;
 }
 
 .menu{
@@ -89,14 +100,20 @@ h1{
     padding-right:40px;
 }
 
+.contido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
 .opinion{
-    display: inline-block;
-    width: 1020px;
-    height: 70%;
-    
+    display: grid;
+    width: 100%;
+    background-color: aliceblue;
 }
 
 .YT{
-    display: inline-block;
-    width: 620px;
+    display: grid;
+    width: 100%;
+    background-color: aliceblue;
 }

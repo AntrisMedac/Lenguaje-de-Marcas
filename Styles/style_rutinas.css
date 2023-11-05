@@ -29,7 +29,18 @@ footer {
 }
 
 #nombre{
+    color: rgb(255, 49, 49);
+    position: relative;
+    padding-left:860px;
+}
+
+#nombre2{
     color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    padding-left:860px;
 }
 
 .menu{
