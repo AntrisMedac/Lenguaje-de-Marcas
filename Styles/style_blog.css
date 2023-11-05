@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+
 body{
-    background-image: url(/Multimedia/Fondo_blog.jpg);
+    background-color: #e2e2e2;
     font-family: 'calibri';
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -30,17 +37,6 @@ footer {
 
 #nombre{
     color: rgb(255, 49, 49);
-    position: relative;
-    padding-left:860px;
-}
-
-#nombre2{
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    left: 70px;
-    padding-left:860px;
 }
 
 .menu{
@@ -58,11 +54,6 @@ nav ul li a{
     text-decoration: none;
     color: #000000;
     font-weight:bold;
-}
-
-h1{
-    padding-left:894px;
-
 }
 
 #menu1{
@@ -100,32 +91,12 @@ h1{
     padding-right:40px;
 }
 
+
 .contenedor{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    width: 100%;
+    display: flex;
+    width: 50%;    
 }
 
-.texto{
-    display: grid;
+h2, h4{
     text-align: center;
-    width: auto;
-    
-}
-
-.Ronnie{
-    display: grid;
-    width: auto;
-    height: auto;
-}
-
-.Arnold{
-    display: grid;
-    width: auto;
-    height: auto;
-    
-}
-
-.fondo_texto{
-    background-color: aliceblue;
 }
