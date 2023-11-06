@@ -5,99 +5,57 @@
 }
 
 body{
-    background-image: url(/Multimedia/Fondo_blog.jpg);
+    background-image: url(/Multimedia/fondo_podcast.jpg);
     font-family: 'calibri';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+footer {
+    background-color: #575757;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:bold;
 }
 
 header{
     background: #575757;
     width: 100%;
-    clear: both;
-    content: '';
-    display: table;
+    display: flex;
+    align-items: center;
+    height: 2.2cm;   
 }
 
-footer {
-    background-color: #575757;
-    padding: 10px;
-    text-align: right;
-    position: absolute;
-    bottom:0;
-    width: 100%;
-    height: 55px;
-    color: rgb(255, 255, 255);
+#logo{
+    height: 125px;
+    align-items: center;
+    text-align: left;
 }
 
 #nombre{
+    display: flex;
     color: rgb(255, 49, 49);
-    position: relative;
-    padding-left:860px;
-}
-
-#nombre2{
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    left: 70px;
-    padding-left:860px;
+    text-align: left;
 }
 
 .menu{
-    width: 1000px;
-    margin: 0 auto;
+    display: flex;
+    width: 100%;
 }
 
-img{
-    width: 90px;
-    float: left;
-    padding: 0px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #000000;
-    font-weight:bold;
-}
-
-h1{
-    padding-left:894px;
-
-}
-
-#menu1{
-    display:inline;
-    padding-right:40px;
-}
-
-#menu2{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
-}
-
-#menu3{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
-}
-
-#menu4{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
-}
-
-#menu5{
-    display:inline;
-    padding-left:305px;
-    padding-right:40px;
-}
-
-#menu6{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
+header nav li{
+    display: flex;
+    display: inline-block;
+    padding: 0 100px;
 }
 
 .contido{

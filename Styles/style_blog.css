@@ -8,6 +8,9 @@
 body{
     background-color: #e2e2e2;
     font-family: 'calibri';
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 main{
@@ -16,85 +19,56 @@ main{
     align-items: center;
 }
 
-header{
-    background: #575757;
-    width: 100%;
-    clear: both;
-    content: '';
-    display: table;
-}
-
 footer {
-    bottom: 0;
     background-color: #575757;
     padding: 10px;
-    text-align: right;
-    position: absolute;
-    width: 100%;
-    height: 55px;
+    text-align: center;
     color: rgb(255, 255, 255);
+    margin-top: auto;
 }
 
-#nombre{
-    color: rgb(255, 49, 49);
-}
-
-.menu{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-img{
-    width: 90px;
-    float: left;
-    padding: 0px;
-}
 
 nav ul li a{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-weight:bold;
 }
 
-#menu1{
-    display:inline;
-    padding-right:40px;
+header{
+    background: #575757;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 2.2cm;   
 }
 
-#menu2{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
+#logo{
+    height: 125px;
+    align-items: center;
+    text-align: left;
 }
 
-#menu3{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
+#nombre{
+    display: flex;
+    color: rgb(255, 49, 49);
+    text-align: left;
 }
 
-#menu4{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
+.menu{
+    display: flex;
+    width: 100%;
 }
 
-#menu5{
-    display:inline;
-    padding-left:305px;
-    padding-right:40px;
+header nav li{
+    display: flex;
+    display: inline-block;
+    padding: 0 100px;
 }
-
-#menu6{
-    display:inline;
-    padding-left:30px;
-    padding-right:40px;
-}
-
 
 .contenedor{
     display: flex;
-    width: 50%;    
+    width: 50%;
+    margin-top: 2%;    
 }
 
 h2, h4{
