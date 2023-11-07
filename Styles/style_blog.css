@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: #e2e2e2;
+    background-image: url(/Multimedia/fondo_blog.jpg);
     font-family: 'calibri';
     display: flex;
     flex-direction: column;
@@ -68,7 +68,15 @@ header nav li{
 .contenedor{
     display: flex;
     width: 50%;
-    margin-top: 2%;    
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    text-align: center;    
 }
 
 h2, h4{

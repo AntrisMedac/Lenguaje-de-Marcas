@@ -4,16 +4,6 @@
     <meta charset="UTF-8" />
     <title>Rutinas</title>
 
-    <style>
-        th {
-            text-align: left;
-        }
-
-         td {
-            text-align: right;
-        }
-    </style>
-
     <link rel="stylesheet" href="/Styles/style_rutinas.css">
 </head>
 <body>
@@ -36,7 +26,7 @@
         </nav>   
     </header> 
 
-    <table border>
+    <table border class="tabla">
         <tbody>
             <tr>
                 <th>Día</th>
@@ -71,11 +61,49 @@
       </tbody>
     </table>
 
+    <aside class="texto">
+        <p>Llevar una rutina de gimnasio completa y una dieta acorde a tus objetivos es una estrategia fundamental para mejorar tu salud, estado físico y calidad de vida. Los beneficios de combinar ambos aspectos son numerosos
+            y abarcan tanto el aspecto físico como el bienestar general. <br><br>Slgunos de los principales beneficios de seguir esta combinación son el desarrollo muscular, la pérdida de grasa, la mejora de la salud cardiovascular, 
+            aumento de la energía y vitalidad, mejora de la salud mental y muchos mas beneficios</p>
+        
+    </aside>
+
+    <section class="listas">
+        <h3>Ejercicios para pecho</h3>
+        <ol>
+            <li>Press de banca</li>
+            <li>Press con mancuerna inclinado</li>
+            <li>Apertura máquina</li>
+            <li>Press de banca inclinado</li>
+            <li>Press de banca declinado</li>
+        </ol>
+
+        <h3>Dietas comunes</h3>
+        <ul>
+            <li>Omnívora</li>
+            <li>Cetogénica</li>
+            <li>Paleo</li>
+            <li>Vegetariana</li>
+            <li>Vegana</li>
+        </ul>
+    </section>
     
+    <button id="boton" type="button" onclick="verVideo();">¡No te lo pienses mas, empieza por aquí!</button>
+
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KXnOryN4ENc?si=pi6c2Pgn9HuGrPNj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
     <footer>
         <p>Todos los derechos reservados</p>
         <p>Antonio Risueño Espinosa</p>
     </footer>
+
+    <script type="text/javascript">
+        function verVideo(){
+            document.getElementById('video').style.display='block';
+        }
+    </script>
+
 </body>
 </html>

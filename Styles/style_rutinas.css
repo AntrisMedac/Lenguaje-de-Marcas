@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #e2e2e2;
+    background-image: url(/Multimedia/fondo_rutinas.jpg);
     font-family: 'calibri';
     display: flex;
     flex-direction: column;
@@ -56,4 +56,82 @@ header nav li{
     display: flex;
     display: inline-block;
     padding: 0 100px;
+}
+
+th {
+    text-align: left;
+}
+
+ td {
+    text-align: right;
+}
+
+.tabla{
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    text-align: center;
+}
+
+.texto{
+    display: flex;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    text-align: center;
+}
+
+.listas{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    color: #fff;
+}
+
+#boton{
+    display: flex;
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 45%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    text-align: center;
+}
+
+
+#video{
+    display: flex;
+    display: none;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
+    text-align: center;
 }
