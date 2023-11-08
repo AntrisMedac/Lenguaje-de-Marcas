@@ -31,7 +31,8 @@
     <main>
 
         <div class="boton">
-            <button id="playBtn"></button>
+            <button id="playBtn">Play</i></button>
+            <button id="pauseBtn">Pause</i></button>
         </div>
 
         <div class="contenedor">
@@ -60,6 +61,19 @@
         <p>Todos los derechos reservados</p>
         <p>Antonio Risueño Espinosa</p>
     </footer>
+
+    <script type="text/javascript">
+        let sound = new Audio('./Multimedia/Ronnie.mp3');
+
+        playBtn.addEventListener('click', ()=>{
+            sound.play();
+        });
+
+        pauseBtn.addEventListener('click', ()=>{
+            sound.pause();
+        });
+
+    </script>
 
 </body>
 </html>
