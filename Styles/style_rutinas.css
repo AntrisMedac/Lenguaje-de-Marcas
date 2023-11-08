@@ -19,6 +19,9 @@ footer {
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: auto;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
 }
 
 nav ul li a{
@@ -33,6 +36,9 @@ header{
     display: flex;
     align-items: center;
     height: 2.2cm;   
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
 }
 
 #logo{
@@ -109,7 +115,7 @@ th {
 
 #boton{
     display: flex;
-    width: 10%;
+    width: 8%;
     margin-top: 2%;
     margin-left: 45%;
     margin-right: 45%;

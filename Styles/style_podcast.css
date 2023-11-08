@@ -10,6 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
 
@@ -19,6 +20,9 @@ footer {
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: auto;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
 }
 
 nav ul li a{
@@ -32,7 +36,10 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    height: 2.2cm;   
+    height: 2.2cm;  
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff; 
 }
 
 #logo{
@@ -58,16 +65,59 @@ header nav li{
     padding: 0 100px;
 }
 
-.contido{
+.videos{
     display: flex;
-    width: 100px;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 5.5%;
 }
 
-.opinion{
-    width: 50%;
+#opinion{
+    display: flex;
+    width: 33%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
 }
 
-.YT{
-    width: 50%;
+#YT{
+    display: flex;
+    width: 33%;
+    margin-left: 1%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
+}
+
+.comentarios{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+   
+}
+
+.comentario1{
+    display: flex;
+    position: relative;
+    width: 19.5%;
+    margin-left: -35%;
+    margin-top: 1%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
+}
+
+.comentario2{
+    display: flex;
+    position: absolute;
+    width: 24.5%;
+    margin-top: 1%;
+    margin-left: 35%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    color: #fff;
 }

@@ -73,8 +73,8 @@ header nav li{
 
 .contenedor{
     display: flex;
-    width: 50%;
-    margin-top: 1.2%;
+    width: 40%;
+    margin-top: 7%;
     align-items: center;
     justify-content: space-around;
     background: transparent;
@@ -83,8 +83,4 @@ header nav li{
     backdrop-filter: blur(15px);
     color: #fff;
     text-align: center;    
-}
-
-h2, h4{
-    text-align: center;
 }
