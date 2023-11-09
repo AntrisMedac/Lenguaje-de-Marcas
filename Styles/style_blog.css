@@ -1,22 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-body{
-    background-image: url(/Multimedia/fondo_blog.jpg);
+body {
+    background-image: url(/Multimedia/Fondo_blog.jpg);
     font-family: 'calibri';
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 footer {
@@ -25,56 +18,85 @@ footer {
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: auto;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(15px);
     color: #fff;
 }
 
-
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #ffffff;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-header{
+header {
     background: #575757;
     width: 100%;
     display: flex;
     align-items: center;
-    height: 2.2cm;  
-    border: 2px solid rgba(255,255,255,0.5);
+    height: 2.2cm;
+    border: 2px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(15px);
-    color: #fff; 
+    color: #fff;
 }
 
-#logo{
+#logo {
     height: 125px;
     align-items: center;
     text-align: left;
 }
 
-#nombre{
+#nombre {
     display: flex;
     color: rgb(255, 49, 49);
     text-align: left;
 }
 
-.menu{
+.menu {
     display: flex;
     width: 100%;
 }
 
-header nav li{
-    display: flex;
+header nav li {
     display: inline-block;
     padding: 0 100px;
+    position: relative;
+}
+
+/* Oculta el submenú por defecto */
+.submenu {
+    display: none;
+
+    /* Posición absoluta para sacar del flujo normal */
+    position: absolute;
+
+    /* Color de fondo para el submenú */
+    background: #575757;
+}
+
+/* Quita margenes y paddings de lista para evitar desplazamientos */
+.submenu li {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quita margen izquierdo y padding para alinear texto */
+.submenu li a {
+    padding-left: 0px;
+    margin-left: 0;
+}
+
+/* Muestra el submenú al hacer hover en el padre */
+li:hover .submenu {
+    display: block;
 }
 
 .contenedor{
     display: flex;
     width: 50%;
     margin-top: 1.2%;
+    margin-left: 25%;
     align-items: center;
     justify-content: space-around;
     background: transparent;

@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(/Multimedia/Fondo.jpg);
     font-family: 'calibri';
     display: flex;
@@ -12,65 +12,93 @@ body{
     min-height: 100vh;
 }
 
-
 footer {
     background-color: #575757;
     padding: 10px;
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: auto;
-    border: 2px solid rgba(255,255,255,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(15px);
     color: #fff;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #ffffff;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-header{
+header {
     background: #575757;
     width: 100%;
     display: flex;
     align-items: center;
-    height: 2.2cm;   
-    border: 2px solid rgba(255,255,255,0.5);
+    height: 2.2cm;
+    border: 2px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(15px);
     color: #fff;
 }
 
-#logo{
+#logo {
     height: 125px;
     align-items: center;
     text-align: left;
 }
 
-#nombre{
+#nombre {
     display: flex;
     color: rgb(255, 49, 49);
     text-align: left;
 }
 
-.menu{
+.menu {
     display: flex;
     width: 100%;
 }
 
-header nav li{
-    display: flex;
+header nav li {
     display: inline-block;
     padding: 0 100px;
+    position: relative;
 }
 
-.movimiento{
+/* Oculta el submenú por defecto */
+.submenu {
+    display: none;
+
+    /* Posición absoluta para sacar del flujo normal */
+    position: absolute;
+
+    /* Color de fondo para el submenú */
+    background: #575757;
+}
+
+/* Quita margenes y paddings de lista para evitar desplazamientos */
+.submenu li {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quita margen izquierdo y padding para alinear texto */
+.submenu li a {
+    padding-left: 0px;
+    margin-left: 0;
+}
+
+/* Muestra el submenú al hacer hover en el padre */
+li:hover .submenu {
+    display: block;
+}
+
+.movimiento {
     left: 0;
     right: 0;
     margin-top: 100px;
 }
 
-#mensaje1{
+#mensaje1 {
     color: rgb(0, 0, 0);
     animation-duration: 1s;
     animation-name: movimiento;
@@ -78,7 +106,7 @@ header nav li{
     text-align: center;
 }
 
-#mensaje2{
+#mensaje2 {
     color: rgb(255, 49, 49);
     top: 0px;
     left: 70px;
@@ -88,7 +116,7 @@ header nav li{
     text-align: center;
 }
 
-#mensaje3{
+#mensaje3 {
     color: rgb(255, 255, 255);
     animation-duration: 1.5s;
     animation-name: movimiento;
@@ -96,15 +124,18 @@ header nav li{
     text-align: center;
 }
 
+
 @keyframes movimiento {
 
-    from{
+    from {
         margin-left: 100%;
         width: 300%;
     }
 
-    to{
+    to {
         margin-left: 0%;
         width: 100%;
     }
+
+
 }
