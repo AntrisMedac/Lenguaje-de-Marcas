@@ -127,7 +127,6 @@ li:hover .submenu {
 .comentario1{
     display: flex;
     position: relative;
-    width: 19.5%;
     margin-left: -35%;
     margin-top: 1%;
     background: transparent;
@@ -140,7 +139,6 @@ li:hover .submenu {
 .comentario2{
     display: flex;
     position: absolute;
-    width: 24.5%;
     margin-top: 1%;
     margin-left: 35%;
     background: transparent;
